@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -144,7 +144,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -564,7 +564,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -588,7 +588,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -720,21 +720,258 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
-    "cached_events": [],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "cached_events": [
+      {
+        "uid": "espn-mls-761662",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Portland Timbers",
+        "venue": "Lumen Field",
+        "start": "2026-07-17T02:30:00+00:00",
+        "end": "2026-07-17T04:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761724",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Vancouver Whitecaps",
+        "venue": "Lumen Field",
+        "start": "2026-08-17T01:00:00+00:00",
+        "end": "2026-08-17T03:00:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761736",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Austin FC",
+        "venue": "Lumen Field",
+        "start": "2026-08-20T01:30:00+00:00",
+        "end": "2026-08-20T03:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761755",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Chicago Fire FC",
+        "venue": "Lumen Field",
+        "start": "2026-08-29T20:30:00+00:00",
+        "end": "2026-08-29T22:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761780",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Red Bull New York",
+        "venue": "Lumen Field",
+        "start": "2026-09-06T00:30:00+00:00",
+        "end": "2026-09-06T02:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761543",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Real Salt Lake",
+        "venue": "Lumen Field",
+        "start": "2026-09-24T01:30:00+00:00",
+        "end": "2026-09-24T03:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761837",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Minnesota United FC",
+        "venue": "Lumen Field",
+        "start": "2026-09-27T00:30:00+00:00",
+        "end": "2026-09-27T02:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761798",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Sporting Kansas City",
+        "venue": "Lumen Field",
+        "start": "2026-10-02T01:30:00+00:00",
+        "end": "2026-10-02T03:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761885",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - CF Montr\u00e9al",
+        "venue": "Lumen Field",
+        "start": "2026-10-18T02:30:00+00:00",
+        "end": "2026-10-18T04:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761916",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - Houston Dynamo FC",
+        "venue": "Lumen Field",
+        "start": "2026-10-29T02:30:00+00:00",
+        "end": "2026-10-29T04:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-mls-761948",
+        "league": "MLS",
+        "title": "Seattle Sounders FC - LAFC",
+        "venue": "Lumen Field",
+        "start": "2026-11-08T00:00:00+00:00",
+        "end": "2026-11-08T02:00:00+00:00",
+        "completed": false
+      }
+    ],
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
-    "cached_events": [],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "cached_events": [
+      {
+        "uid": "espn-nwsl-401853939",
+        "league": "NWSL",
+        "title": "Seattle Reign FC 2 - 0 Portland Thorns FC",
+        "venue": "Lumen Field",
+        "start": "2026-07-12T20:00:00+00:00",
+        "end": "2026-07-12T22:00:00+00:00",
+        "completed": true
+      },
+      {
+        "uid": "espn-nwsl-401853968",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - Angel City FC",
+        "venue": "Lumen Field",
+        "start": "2026-08-10T01:00:00+00:00",
+        "end": "2026-08-10T03:00:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nwsl-401853970",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - Chicago Stars FC",
+        "venue": "Lumen Field",
+        "start": "2026-08-15T02:00:00+00:00",
+        "end": "2026-08-15T04:00:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nwsl-401853989",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - Houston Dash",
+        "venue": "Lumen Field",
+        "start": "2026-08-30T23:00:00+00:00",
+        "end": "2026-08-31T01:00:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nwsl-401853995",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - San Diego Wave FC",
+        "venue": "Lumen Field",
+        "start": "2026-09-07T01:00:00+00:00",
+        "end": "2026-09-07T03:00:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nwsl-401853998",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - Bay FC",
+        "venue": "Lumen Field",
+        "start": "2026-09-13T00:00:00+00:00",
+        "end": "2026-09-13T02:00:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nwsl-401854087",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - Boston Legacy FC",
+        "venue": "Lumen Field",
+        "start": "2026-09-26T00:30:00+00:00",
+        "end": "2026-09-26T02:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nwsl-401854016",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - North Carolina Courage",
+        "venue": "Lumen Field",
+        "start": "2026-10-03T02:00:00+00:00",
+        "end": "2026-10-03T04:00:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nwsl-401854037",
+        "league": "NWSL",
+        "title": "Seattle Reign FC - Orlando Pride",
+        "venue": "Lumen Field",
+        "start": "2026-11-01T22:00:00+00:00",
+        "end": "2026-11-02T00:00:00+00:00",
+        "completed": false
+      }
+    ],
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
-    "cached_events": [],
-    "last_success_utc": "2026-07-14T04:28:31.999841+00:00"
+    "cached_events": [
+      {
+        "uid": "espn-worldcup-760426",
+        "league": "WorldCup",
+        "title": "Belgium 1 - 1 Egypt",
+        "venue": "Lumen Field",
+        "start": "2026-06-15T19:00:00+00:00",
+        "end": "2026-06-15T21:00:00+00:00",
+        "completed": true
+      },
+      {
+        "uid": "espn-worldcup-760442",
+        "league": "WorldCup",
+        "title": "United States 2 - 0 Australia",
+        "venue": "Lumen Field",
+        "start": "2026-06-19T19:00:00+00:00",
+        "end": "2026-06-19T21:00:00+00:00",
+        "completed": true
+      },
+      {
+        "uid": "espn-worldcup-760462",
+        "league": "WorldCup",
+        "title": "Bosnia-Herzegovina 3 - 1 Qatar",
+        "venue": "Lumen Field",
+        "start": "2026-06-24T19:00:00+00:00",
+        "end": "2026-06-24T21:00:00+00:00",
+        "completed": true
+      },
+      {
+        "uid": "espn-worldcup-760476",
+        "league": "WorldCup",
+        "title": "Egypt 1 - 1 Iran",
+        "venue": "Lumen Field",
+        "start": "2026-06-27T03:00:00+00:00",
+        "end": "2026-06-27T05:00:00+00:00",
+        "completed": true
+      },
+      {
+        "uid": "espn-worldcup-760493",
+        "league": "WorldCup",
+        "title": "Belgium 3 - 2 Senegal",
+        "venue": "Lumen Field",
+        "start": "2026-07-01T20:00:00+00:00",
+        "end": "2026-07-01T22:00:00+00:00",
+        "completed": true
+      },
+      {
+        "uid": "espn-worldcup-760507",
+        "league": "WorldCup",
+        "title": "United States 1 - 4 Belgium",
+        "venue": "Lumen Field",
+        "start": "2026-07-07T00:00:00+00:00",
+        "end": "2026-07-07T02:00:00+00:00",
+        "completed": true
+      }
+    ],
+    "last_success_utc": "2026-07-14T04:51:05.842920+00:00"
   }
 }

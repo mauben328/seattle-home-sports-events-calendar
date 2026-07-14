@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-07-14T04:28:31Z",
+  "run_utc": "2026-07-14T04:51:05Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
@@ -34,24 +34,24 @@
     "MLS": {
       "status": "fresh",
       "fetched": 293,
-      "kept": 0,
+      "kept": 11,
       "in_season": true
     },
     "NWSL": {
       "status": "fresh",
       "fetched": 147,
-      "kept": 0,
+      "kept": 9,
       "in_season": true
     },
     "WorldCup": {
       "status": "fresh",
       "fetched": 97,
-      "kept": 0,
+      "kept": 6,
       "in_season": true
     }
   },
   "flags": [],
-  "total_events": 77,
+  "total_events": 103,
   "escalations": [],
   "anomalies": []
 }
