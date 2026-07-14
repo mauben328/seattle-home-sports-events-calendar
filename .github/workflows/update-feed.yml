@@ -69,6 +69,6 @@ jobs:
         # the one failure mode no step inside this workflow can ever report.
         if: success()
         env:
-          HC_URL: ${{https://hc-ping.com/54cd5486-5bd7-4e83-9e26-e4c0522191b4}}
+          HC_URL: ${{ secrets.HEALTHCHECK_URL }}
         run: |
           if [ -n "$HC_URL" ]; then curl -fsS --retry 3 "$HC_URL" > /dev/null; fi
