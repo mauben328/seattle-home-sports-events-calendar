@@ -24,6 +24,7 @@ import argparse
 import json
 import re
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timedelta, timezone
@@ -37,11 +38,49 @@ UA = {"User-Agent": "seattle-sports-calendar/1.0 (personal project)"}
 # Fetch
 # ---------------------------------------------------------------------------
 
-def fetch_scoreboard(path: str, start: str, end: str, extra: str) -> dict:
-    url = f"{BASE}/{path}/scoreboard?dates={start}-{end}{extra}"
+def fetch_scoreboard(path: str, start: str, end: str, extra: str, limit: int) -> dict:
+    url = f"{BASE}/{path}/scoreboard?dates={start}-{end}&limit={limit}{extra}"
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8"))
+
+
+def fetch_league_events(league: dict, start: datetime, end: datetime,
+                        cfg: dict) -> tuple[list[dict], list[str]]:
+    """Fetch a league's events across a date range in chunks.
+
+    ESPN caps scoreboard responses (observed: 100 by default, or whatever
+    `limit` is set to). A single request for a 6-month window silently
+    returns only the first N events - missing events with no error. So we
+    chunk the range, dedupe by event id, and treat any near-limit chunk as
+    a TRUNCATION anomaly rather than trusting a suspiciously round count.
+    """
+    chunk_days = cfg.get("fetch_chunk_days", 14)
+    limit = cfg.get("fetch_limit", 1000)
+    warn_at = cfg.get("truncation_warn_at", 900)
+
+    by_id: dict[str, dict] = {}
+    truncation: list[str] = []
+    cursor = start
+    while cursor <= end:
+        chunk_end = min(cursor + timedelta(days=chunk_days - 1), end)
+        payload = fetch_scoreboard(league["path"],
+                                   cursor.strftime("%Y%m%d"),
+                                   chunk_end.strftime("%Y%m%d"),
+                                   league["extra"], limit)
+        events = payload.get("events") or []
+        if len(events) >= warn_at:
+            truncation.append(
+                f"{league['label']}: chunk {cursor:%Y%m%d}-{chunk_end:%Y%m%d} "
+                f"returned {len(events)} events (limit {limit}) - response is "
+                f"likely truncated. Lower fetch_chunk_days in config.json.")
+        for ev in events:
+            if ev.get("id"):
+                by_id[ev["id"]] = ev
+        cursor = chunk_end + timedelta(days=1)
+        time.sleep(0.2)  # be polite to an unofficial API
+
+    return list(by_id.values()), truncation
 
 
 # ---------------------------------------------------------------------------
@@ -195,8 +234,8 @@ def main() -> int:
 
     for league in cfg["leagues"]:
         label = league["label"]
-        start = (today - timedelta(days=cfg["retention_days_past"])).strftime("%Y%m%d")
-        end = (today + timedelta(days=league["lookahead_days"])).strftime("%Y%m%d")
+        win_start = today - timedelta(days=cfg["retention_days_past"])
+        win_end = today + timedelta(days=league["lookahead_days"])
         in_season = month in league["season_months"]
         lstate = state.setdefault(label, {"consecutive_failures": 0,
                                           "cached_events": [],
@@ -209,13 +248,16 @@ def main() -> int:
             events = fixture.get(label, {"events": []}).get("events") or []
         else:
             try:
-                payload = fetch_scoreboard(league["path"], start, end, league["extra"])
-                events = payload.get("events") or []
+                events, truncation = fetch_league_events(league, win_start,
+                                                         win_end, cfg)
+                # Truncation means silently missing events - never publish that.
+                anomalies.extend(truncation)
                 # Zero events from an in-season non-tournament league is
                 # treated as a source failure (ESPN may have moved the data),
                 # not as truth about the schedule.
                 if not events and in_season and not league.get("zero_events_ok"):
-                    failure_reason = f"zero events while in season ({start}-{end})"
+                    failure_reason = (f"zero events while in season "
+                                      f"({win_start:%Y%m%d}-{win_end:%Y%m%d})")
             except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError,
                     json.JSONDecodeError) as e:
                 failure_reason = f"fetch failed: {e}"
