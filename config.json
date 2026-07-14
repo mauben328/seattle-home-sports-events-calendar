@@ -21,6 +21,7 @@
   "_comment_venue_registry": "Paste your confirmed venue IDs from discover mode. Same building can have different IDs per sport - register all of them.",
   "venue_registry": {
     "3673": "Lumen Field",
+    "4485": "Lumen Field",
     "3765": "Husky Stadium",
     "41": "T-Mobile Park",
     "7224": "Climate Pledge Arena"
