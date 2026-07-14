@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seattle Sports Calendar</title>
+<meta name="description" content="One calendar subscription for every major sports event in the greater Seattle area. Auto-updating, with final scores.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sage: #dfe7db;
+    --sage-deep: #b9c9b1;
+    --ink: #1c241a;
+    --ink-soft: #47523f;
+    --cobalt: #1f4fd8;
+    --cobalt-deep: #16389b;
+    --paper: #f4f7f1;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--sage);
+    color: var(--ink);
+    font-family: "DM Sans", system-ui, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 48px 20px 64px;
+  }
+  main { width: 100%; max-width: 620px; }
+  .eyebrow {
+    font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-soft); margin-bottom: 12px;
+  }
+  h1 {
+    font-family: "Syne", sans-serif; font-weight: 700;
+    font-size: clamp(34px, 6vw, 46px); line-height: 1.08;
+    margin-bottom: 14px;
+  }
+  .lede { color: var(--ink-soft); max-width: 48ch; margin-bottom: 36px; }
 
+  .ticket {
+    background: var(--paper);
+    border: 1.5px solid var(--ink);
+    border-radius: 14px;
+    padding: 22px 22px 18px;
+    margin-bottom: 40px;
+  }
+  .ticket-label {
+    font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--ink-soft); margin-bottom: 10px;
+  }
+  .url-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  #feed-url {
+    flex: 1 1 260px;
+    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+    font-size: 14px;
+    background: #fff; color: var(--ink);
+    border: 1px solid var(--sage-deep); border-radius: 8px;
+    padding: 12px 14px;
+    overflow-x: auto; white-space: nowrap;
+  }
+  button {
+    font-family: "Syne", sans-serif; font-weight: 600; font-size: 15px;
+    background: var(--cobalt); color: #fff;
+    border: none; border-radius: 8px;
+    padding: 12px 22px; cursor: pointer;
+  }
+  button:hover { background: var(--cobalt-deep); }
+  button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  .copied { font-size: 13px; color: var(--cobalt-deep); margin-top: 10px; min-height: 1.2em; }
+
+  h2 {
+    font-family: "Syne", sans-serif; font-weight: 600; font-size: 19px;
+    margin: 28px 0 8px;
+  }
+  ol { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  li::marker { color: var(--cobalt); font-weight: 500; }
+  a { color: var(--cobalt-deep); }
+  a:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+
+  .coverage {
+    margin-top: 40px; padding-top: 20px;
+    border-top: 1px solid var(--sage-deep);
+    font-size: 14px; color: var(--ink-soft);
+  }
+  .coverage strong { color: var(--ink); font-weight: 500; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Auto-updating calendar feed</p>
+  <h1>Every big game in Seattle, on your calendar.</h1>
+  <p class="lede">
+    Seahawks, Mariners, Kraken, Sounders, Reign, Storm, and Huskies home games,
+    plus tournaments and neutral-site events held at Seattle-area venues.
+    Refreshes daily and adds final scores to finished games.
+  </p>
+
+  <div class="ticket">
+    <p class="ticket-label">Your subscription link</p>
+    <div class="url-row">
+      <span id="feed-url">loading&hellip;</span>
+      <button id="copy-btn" type="button">Copy link</button>
+    </div>
+    <p class="copied" id="copy-status" role="status"></p>
+  </div>
+
+  <h2>Google Calendar</h2>
+  <ol>
+    <li>Copy the link above.</li>
+    <li>In Google Calendar on the web, next to "Other calendars" choose <strong>+ &rarr; From URL</strong>.</li>
+    <li>Paste the link and choose <strong>Add calendar</strong>.</li>
+  </ol>
+
+  <h2>Apple Calendar</h2>
+  <ol>
+    <li><a id="webcal-link" href="#">Subscribe in one tap</a>, or go to File &rarr; New Calendar Subscription and paste the link.</li>
+  </ol>
+
+  <h2>Outlook</h2>
+  <ol>
+    <li>Go to Add calendar &rarr; <strong>Subscribe from web</strong> and paste the link.</li>
+  </ol>
+
+  <p class="coverage">
+    <strong>Covers:</strong> NFL, MLB, NHL, MLS, NWSL, WNBA, college football,
+    and international soccer tournaments at greater Seattle venues.
+    Calendar apps control their own refresh timing, so new events and scores can
+    take up to a day to appear after they are published.
+  </p>
+</main>
+<script>
+  var feedUrl = new URL("seattle.ics", window.location.href).href;
+  document.getElementById("feed-url").textContent = feedUrl;
+  document.getElementById("webcal-link").href = feedUrl.replace(/^https?:/, "webcal:");
+  document.getElementById("copy-btn").addEventListener("click", function () {
+    navigator.clipboard.writeText(feedUrl).then(function () {
+      document.getElementById("copy-status").textContent = "Copied. Paste it into your calendar app.";
+    }, function () {
+      document.getElementById("copy-status").textContent = "Copy failed - select the link text and copy manually.";
+    });
+  });
+</script>
+</body>
+</html>
