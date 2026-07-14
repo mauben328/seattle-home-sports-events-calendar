@@ -1,22 +1,22 @@
 {
-  "run_utc": "2026-07-14T04:15:47Z",
+  "run_utc": "2026-07-14T04:28:31Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
-      "fetched": 100,
-      "kept": 2,
+      "fetched": 321,
+      "kept": 10,
       "in_season": false
     },
     "CFB": {
       "status": "fresh",
-      "fetched": 500,
+      "fetched": 396,
       "kept": 5,
       "in_season": false
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 100,
-      "kept": 5,
+      "fetched": 1383,
+      "kept": 46,
       "in_season": true
     },
     "NHL": {
@@ -27,19 +27,19 @@
     },
     "WNBA": {
       "status": "fresh",
-      "fetched": 100,
-      "kept": 6,
+      "fetched": 232,
+      "kept": 14,
       "in_season": true
     },
     "MLS": {
       "status": "fresh",
-      "fetched": 100,
+      "fetched": 293,
       "kept": 0,
       "in_season": true
     },
     "NWSL": {
       "status": "fresh",
-      "fetched": 100,
+      "fetched": 147,
       "kept": 0,
       "in_season": true
     },
@@ -50,109 +50,8 @@
       "in_season": true
     }
   },
-  "flags": [
-    {
-      "uid": "espn-nfl-401873279",
-      "title": "Seattle Seahawks - Dallas Cowboys",
-      "reason": "metro city 'seattle' with unregistered venue id 3673"
-    },
-    {
-      "uid": "espn-nfl-401872656",
-      "title": "Seattle Seahawks - New England Patriots",
-      "reason": "metro city 'seattle' with unregistered venue id 3673"
-    },
-    {
-      "uid": "espn-cfb-401858437",
-      "title": "Washington Huskies - Washington State Cougars",
-      "reason": "metro city 'seattle' with unregistered venue id 3765"
-    },
-    {
-      "uid": "espn-cfb-401858446",
-      "title": "Washington Huskies - Utah State Aggies",
-      "reason": "metro city 'seattle' with unregistered venue id 3765"
-    },
-    {
-      "uid": "espn-cfb-401858459",
-      "title": "Washington Huskies - Eastern Washington Eagles",
-      "reason": "metro city 'seattle' with unregistered venue id 3765"
-    },
-    {
-      "uid": "espn-cfb-401858470",
-      "title": "Washington Huskies - Minnesota Golden Gophers",
-      "reason": "metro city 'seattle' with unregistered venue id 3765"
-    },
-    {
-      "uid": "espn-cfb-401858487",
-      "title": "Washington Huskies - Iowa Hawkeyes",
-      "reason": "metro city 'seattle' with unregistered venue id 3765"
-    },
-    {
-      "uid": "espn-mlb-401815786",
-      "title": "Seattle Mariners 3 - 1 Baltimore Orioles",
-      "reason": "metro city 'seattle' with unregistered venue id 41"
-    },
-    {
-      "uid": "espn-mlb-401815800",
-      "title": "Seattle Mariners 3 - 5 Baltimore Orioles",
-      "reason": "metro city 'seattle' with unregistered venue id 41"
-    },
-    {
-      "uid": "espn-mlb-401815811",
-      "title": "Seattle Mariners 3 - 0 Baltimore Orioles",
-      "reason": "metro city 'seattle' with unregistered venue id 41"
-    },
-    {
-      "uid": "espn-mlb-401815837",
-      "title": "Seattle Mariners 2 - 6 Boston Red Sox",
-      "reason": "metro city 'seattle' with unregistered venue id 41"
-    },
-    {
-      "uid": "espn-mlb-401814478",
-      "title": "Seattle Mariners 1 - 5 Boston Red Sox",
-      "reason": "metro city 'seattle' with unregistered venue id 41"
-    },
-    {
-      "uid": "espn-nhl-401879652",
-      "title": "Seattle Kraken - Vancouver Canucks",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    },
-    {
-      "uid": "espn-nhl-401879332",
-      "title": "Seattle Kraken - Calgary Flames",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    },
-    {
-      "uid": "espn-wnba-401857015",
-      "title": "Seattle Storm 110 - 112 Dallas Wings",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    },
-    {
-      "uid": "espn-wnba-401857023",
-      "title": "Seattle Storm 99 - 88 New York Liberty",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    },
-    {
-      "uid": "espn-wnba-401857029",
-      "title": "Seattle Storm 105 - 90 Atlanta Dream",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    },
-    {
-      "uid": "espn-wnba-401857040",
-      "title": "Seattle Storm 72 - 77 Portland Fire",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    },
-    {
-      "uid": "espn-wnba-401857085",
-      "title": "Seattle Storm - Minnesota Lynx",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    },
-    {
-      "uid": "espn-wnba-401857087",
-      "title": "Seattle Storm - Minnesota Lynx",
-      "reason": "metro city 'seattle' with unregistered venue id 7224"
-    }
-  ],
-  "total_events": 20,
+  "flags": [],
+  "total_events": 77,
   "escalations": [],
   "anomalies": []
 }
