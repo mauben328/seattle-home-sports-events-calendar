@@ -1,0 +1,74 @@
+name: Update calendar feed
+
+on:
+  schedule:
+    # 12:00 UTC = 4-5am Pacific, after West Coast games have finished
+    # and ESPN has posted finals.
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Generate feed
+        # Single-league failures DEGRADE (cached events served, counter
+        # incremented) rather than block. Only systemic anomalies (all
+        # leagues down, or the event-count drop guard) exit nonzero here.
+        run: python3 generate_feed.py
+
+      - name: Commit results if changed
+        # league_state.json changes on every run, which also keeps the repo
+        # "active" so GitHub never auto-disables this schedule (60-day rule).
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add seattle.ics run_report.json league_state.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed - no commit."
+          else
+            git commit -m "Update feed $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: File or update escalation issue
+        # Runs even if the generate step failed, so systemic blocks also
+        # produce an issue. One stable issue title per problem type keeps
+        # this from spamming: repeat days become comments on the same issue.
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f run_report.json ]; then exit 0; fi
+          ESCALATIONS=$(python3 -c "import json; r=json.load(open('run_report.json')); print('\n'.join(r.get('escalations',[]) + r.get('anomalies',[])))")
+          if [ -z "$ESCALATIONS" ]; then exit 0; fi
+          TITLE="Calendar feed: source failures need attention"
+          EXISTING=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number')
+          BODY="Run $(date -u +%Y-%m-%dT%H:%MZ):
+          $ESCALATIONS
+
+          See run_report.json for details."
+          if [ -z "$EXISTING" ]; then
+            gh issue create --title "$TITLE" --body "$BODY"
+          else
+            gh issue comment "$EXISTING" --body "$BODY"
+          fi
+
+      - name: Dead-man's switch ping
+        # Optional: create a free check at healthchecks.io and store its ping
+        # URL as the HEALTHCHECK_URL repo secret. If this workflow stops
+        # running entirely (auto-disabled schedule, Actions outage, repo
+        # misconfig), healthchecks.io emails you after the grace period -
+        # the one failure mode no step inside this workflow can ever report.
+        if: success()
+        env:
+          HC_URL: ${{https://hc-ping.com/54cd5486-5bd7-4e83-9e26-e4c0522191b4}}
+        run: |
+          if [ -n "$HC_URL" ]; then curl -fsS --retry 3 "$HC_URL" > /dev/null; fi
