@@ -4,7 +4,7 @@ on:
   schedule:
     # 12:00 UTC = 4-5am Pacific, after West Coast games have finished
     # and ESPN has posted finals.
-    - cron: "0 12 * * *"
+    - cron: "23 07 * * *"
   workflow_dispatch: {}
 
 permissions:
