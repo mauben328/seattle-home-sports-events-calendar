@@ -93,20 +93,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-cfb-401858437",
-        "league": "CFB",
-        "title": "Washington Huskies - Washington State Cougars",
-        "venue": "Husky Stadium",
-        "start": "2026-09-06T20:00:00+00:00",
-        "end": "2026-09-06T23:00:00+00:00",
-        "completed": false
-      },
       {
         "uid": "espn-cfb-401858446",
         "league": "CFB",
@@ -114,6 +105,15 @@
         "venue": "Husky Stadium",
         "start": "2026-09-12T19:30:00+00:00",
         "end": "2026-09-12T22:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-cfb-401858459",
+        "league": "CFB",
+        "title": "Washington Huskies - Eastern Washington Eagles",
+        "venue": "Husky Stadium",
+        "start": "2026-09-19T23:15:00+00:00",
+        "end": "2026-09-20T02:15:00+00:00",
         "completed": false
       },
       {
@@ -144,7 +144,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -564,7 +564,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -588,7 +588,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -720,7 +720,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -825,7 +825,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -912,7 +912,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
@@ -972,6 +972,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-14T09:20:47.771524+00:00"
+    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
   }
 }
