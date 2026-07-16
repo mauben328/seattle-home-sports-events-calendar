@@ -93,11 +93,20 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [
+      {
+        "uid": "espn-cfb-401858437",
+        "league": "CFB",
+        "title": "Washington Huskies - Washington State Cougars",
+        "venue": "Husky Stadium",
+        "start": "2026-09-06T20:00:00+00:00",
+        "end": "2026-09-06T23:00:00+00:00",
+        "completed": false
+      },
       {
         "uid": "espn-cfb-401858446",
         "league": "CFB",
@@ -144,7 +153,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -564,7 +573,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -586,9 +595,18 @@
         "start": "2026-09-25T01:40:00+00:00",
         "end": "2026-09-25T04:10:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401891824",
+        "league": "NHL",
+        "title": "Seattle Kraken - Calgary Flames",
+        "venue": "Climate Pledge Arena",
+        "start": "2026-10-05T00:00:00+00:00",
+        "end": "2026-10-05T02:30:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -720,7 +738,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -825,7 +843,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -912,20 +930,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-worldcup-760426",
-        "league": "WorldCup",
-        "title": "Belgium 1 - 1 Egypt",
-        "venue": "Lumen Field",
-        "start": "2026-06-15T19:00:00+00:00",
-        "end": "2026-06-15T21:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-worldcup-760442",
         "league": "WorldCup",
@@ -972,6 +981,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-15T09:25:20.190246+00:00"
+    "last_success_utc": "2026-07-16T09:33:11.663933+00:00"
   }
 }
