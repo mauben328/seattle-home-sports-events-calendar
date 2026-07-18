@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -153,20 +153,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401815800",
-        "league": "MLB",
-        "title": "Seattle Mariners 3 - 5 Baltimore Orioles",
-        "venue": "T-Mobile Park",
-        "start": "2026-06-18T01:40:00+00:00",
-        "end": "2026-06-18T04:40:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401815811",
         "league": "MLB",
@@ -260,11 +251,11 @@
       {
         "uid": "espn-mlb-401816153",
         "league": "MLB",
-        "title": "Seattle Mariners - San Francisco Giants",
+        "title": "Seattle Mariners 0 - 7 San Francisco Giants",
         "venue": "T-Mobile Park",
         "start": "2026-07-18T02:10:00+00:00",
         "end": "2026-07-18T05:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816168",
@@ -564,7 +555,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -660,7 +651,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -792,7 +783,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -897,7 +888,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -984,7 +975,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
@@ -1035,6 +1026,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-17T09:24:26.202790+00:00"
+    "last_success_utc": "2026-07-18T09:04:05.990106+00:00"
   }
 }
