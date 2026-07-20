@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -135,15 +135,6 @@
         "completed": false
       },
       {
-        "uid": "espn-cfb-401858487",
-        "league": "CFB",
-        "title": "Washington Huskies - Iowa Hawkeyes",
-        "venue": "Husky Stadium",
-        "start": "2026-10-10T01:00:00+00:00",
-        "end": "2026-10-10T04:00:00+00:00",
-        "completed": false
-      },
-      {
         "uid": "espn-cfb-401858516",
         "league": "CFB",
         "title": "Washington Huskies - Penn State Nittany Lions",
@@ -153,20 +144,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401815837",
-        "league": "MLB",
-        "title": "Seattle Mariners 2 - 6 Boston Red Sox",
-        "venue": "T-Mobile Park",
-        "start": "2026-06-20T02:10:00+00:00",
-        "end": "2026-06-20T05:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401814478",
         "league": "MLB",
@@ -260,11 +242,11 @@
       {
         "uid": "espn-mlb-401816183",
         "league": "MLB",
-        "title": "Seattle Mariners - San Francisco Giants",
+        "title": "Seattle Mariners 6 - 3 San Francisco Giants",
         "venue": "T-Mobile Park",
         "start": "2026-07-19T20:10:00+00:00",
         "end": "2026-07-19T23:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816199",
@@ -546,7 +528,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -642,7 +624,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -774,7 +756,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -879,7 +861,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -966,20 +948,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-worldcup-760442",
-        "league": "WorldCup",
-        "title": "United States 2 - 0 Australia",
-        "venue": "Lumen Field",
-        "start": "2026-06-19T19:00:00+00:00",
-        "end": "2026-06-19T21:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-worldcup-760462",
         "league": "WorldCup",
@@ -1017,6 +990,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-19T09:22:56.186233+00:00"
+    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
   }
 }
