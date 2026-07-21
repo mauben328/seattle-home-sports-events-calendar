@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -108,15 +108,6 @@
         "completed": false
       },
       {
-        "uid": "espn-cfb-401858446",
-        "league": "CFB",
-        "title": "Washington Huskies - Utah State Aggies",
-        "venue": "Husky Stadium",
-        "start": "2026-09-12T19:30:00+00:00",
-        "end": "2026-09-12T22:30:00+00:00",
-        "completed": false
-      },
-      {
         "uid": "espn-cfb-401858459",
         "league": "CFB",
         "title": "Washington Huskies - Eastern Washington Eagles",
@@ -126,38 +117,20 @@
         "completed": false
       },
       {
-        "uid": "espn-cfb-401858470",
+        "uid": "espn-cfb-401858487",
         "league": "CFB",
-        "title": "Washington Huskies - Minnesota Golden Gophers",
+        "title": "Washington Huskies - Iowa Hawkeyes",
         "venue": "Husky Stadium",
-        "start": "2026-09-26T04:00:00+00:00",
-        "end": "2026-09-26T07:00:00+00:00",
-        "completed": false
-      },
-      {
-        "uid": "espn-cfb-401858516",
-        "league": "CFB",
-        "title": "Washington Huskies - Penn State Nittany Lions",
-        "venue": "Husky Stadium",
-        "start": "2026-11-07T05:00:00+00:00",
-        "end": "2026-11-07T08:00:00+00:00",
+        "start": "2026-10-10T01:00:00+00:00",
+        "end": "2026-10-10T04:00:00+00:00",
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401814478",
-        "league": "MLB",
-        "title": "Seattle Mariners 1 - 5 Boston Red Sox",
-        "venue": "T-Mobile Park",
-        "start": "2026-06-21T02:10:00+00:00",
-        "end": "2026-06-21T05:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401815852",
         "league": "MLB",
@@ -251,11 +224,11 @@
       {
         "uid": "espn-mlb-401816199",
         "league": "MLB",
-        "title": "Seattle Mariners - Cincinnati Reds",
+        "title": "Seattle Mariners 8 - 0 Cincinnati Reds",
         "venue": "T-Mobile Park",
         "start": "2026-07-21T01:40:00+00:00",
         "end": "2026-07-21T04:40:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816214",
@@ -528,7 +501,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -624,7 +597,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -668,11 +641,11 @@
       {
         "uid": "espn-wnba-401857085",
         "league": "WNBA",
-        "title": "Seattle Storm - Minnesota Lynx",
+        "title": "Seattle Storm 102 - 105 Minnesota Lynx",
         "venue": "Climate Pledge Arena",
         "start": "2026-07-21T02:00:00+00:00",
         "end": "2026-07-21T04:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-wnba-401857087",
@@ -756,7 +729,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -861,7 +834,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -948,7 +921,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
@@ -990,6 +963,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-20T10:22:18.200548+00:00"
+    "last_success_utc": "2026-07-21T09:55:35.223006+00:00"
   }
 }

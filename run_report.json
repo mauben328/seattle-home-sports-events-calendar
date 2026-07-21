@@ -1,33 +1,33 @@
 {
-  "run_utc": "2026-07-20T10:22:18Z",
+  "run_utc": "2026-07-21T09:55:35Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
-      "fetched": 323,
+      "fetched": 326,
       "kept": 10,
       "in_season": false
     },
     "CFB": {
       "status": "fresh",
-      "fetched": 727,
-      "kept": 5,
+      "fetched": 461,
+      "kept": 3,
       "in_season": false
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 1308,
-      "kept": 42,
+      "fetched": 1294,
+      "kept": 41,
       "in_season": true
     },
     "NHL": {
       "status": "fresh",
-      "fetched": 408,
+      "fetched": 411,
       "kept": 10,
       "in_season": false
     },
     "WNBA": {
       "status": "fresh",
-      "fetched": 217,
+      "fetched": 214,
       "kept": 14,
       "in_season": true
     },
@@ -45,13 +45,13 @@
     },
     "WorldCup": {
       "status": "fresh",
-      "fetched": 72,
+      "fetched": 69,
       "kept": 4,
       "in_season": true
     }
   },
   "flags": [],
-  "total_events": 105,
+  "total_events": 102,
   "escalations": [],
   "anomalies": []
 }
