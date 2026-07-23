@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -153,7 +153,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -260,11 +260,11 @@
       {
         "uid": "espn-mlb-401816229",
         "league": "MLB",
-        "title": "Seattle Mariners - Cincinnati Reds",
+        "title": "Seattle Mariners 3 - 5 Cincinnati Reds",
         "venue": "T-Mobile Park",
         "start": "2026-07-22T19:40:00+00:00",
         "end": "2026-07-22T22:40:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816345",
@@ -519,7 +519,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -624,20 +624,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857015",
-        "league": "WNBA",
-        "title": "Seattle Storm 110 - 112 Dallas Wings",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-06-23T02:00:00+00:00",
-        "end": "2026-06-23T04:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857023",
         "league": "WNBA",
@@ -677,11 +668,11 @@
       {
         "uid": "espn-wnba-401857087",
         "league": "WNBA",
-        "title": "Seattle Storm - Minnesota Lynx",
+        "title": "Seattle Storm 76 - 86 Minnesota Lynx",
         "venue": "Climate Pledge Arena",
         "start": "2026-07-22T19:00:00+00:00",
         "end": "2026-07-22T21:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-wnba-401857094",
@@ -756,7 +747,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -861,7 +852,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -948,7 +939,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
@@ -990,6 +981,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-22T09:43:44.541040+00:00"
+    "last_success_utc": "2026-07-23T09:42:48.886050+00:00"
   }
 }
