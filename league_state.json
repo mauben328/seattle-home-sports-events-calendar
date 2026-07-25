@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -151,9 +151,18 @@
         "start": "2026-11-07T05:00:00+00:00",
         "end": "2026-11-07T08:00:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-cfb-401858535",
+        "league": "CFB",
+        "title": "Washington Huskies - Indiana Hoosiers",
+        "venue": "Husky Stadium",
+        "start": "2026-11-21T05:00:00+00:00",
+        "end": "2026-11-21T08:00:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -519,7 +528,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -624,7 +633,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -747,7 +756,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -852,7 +861,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -939,20 +948,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-worldcup-760462",
-        "league": "WorldCup",
-        "title": "Bosnia-Herzegovina 3 - 1 Qatar",
-        "venue": "Lumen Field",
-        "start": "2026-06-24T19:00:00+00:00",
-        "end": "2026-06-24T21:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-worldcup-760476",
         "league": "WorldCup",
@@ -981,6 +981,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-24T09:40:12.128634+00:00"
+    "last_success_utc": "2026-07-25T09:15:10.649825+00:00"
   }
 }
