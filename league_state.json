@@ -1,6 +1,6 @@
 {
   "NFL": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "cached_events": [
       {
         "uid": "espn-nfl-401873279",
@@ -162,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -528,7 +528,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -642,7 +642,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -756,7 +756,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -861,7 +861,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -948,20 +948,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-worldcup-760476",
-        "league": "WorldCup",
-        "title": "Egypt 1 - 1 Iran",
-        "venue": "Lumen Field",
-        "start": "2026-06-27T03:00:00+00:00",
-        "end": "2026-06-27T05:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-worldcup-760493",
         "league": "WorldCup",
@@ -981,6 +972,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
   }
 }
