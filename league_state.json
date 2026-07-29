@@ -1,6 +1,6 @@
 {
   "NFL": {
-    "consecutive_failures": 2,
+    "consecutive_failures": 0,
     "cached_events": [
       {
         "uid": "espn-nfl-401873279",
@@ -93,20 +93,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-26T09:28:16.308231+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-cfb-401858437",
-        "league": "CFB",
-        "title": "Washington Huskies - Washington State Cougars",
-        "venue": "Husky Stadium",
-        "start": "2026-09-06T20:00:00+00:00",
-        "end": "2026-09-06T23:00:00+00:00",
-        "completed": false
-      },
       {
         "uid": "espn-cfb-401858446",
         "league": "CFB",
@@ -114,6 +105,15 @@
         "venue": "Husky Stadium",
         "start": "2026-09-12T19:30:00+00:00",
         "end": "2026-09-12T22:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-cfb-401858459",
+        "league": "CFB",
+        "title": "Washington Huskies - Eastern Washington Eagles",
+        "venue": "Husky Stadium",
+        "start": "2026-09-19T23:15:00+00:00",
+        "end": "2026-09-20T02:15:00+00:00",
         "completed": false
       },
       {
@@ -153,7 +153,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-28T10:00:28.242905+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -519,7 +519,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-28T10:00:28.242905+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -642,20 +642,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-28T10:00:28.242905+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   },
   "WNBA": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857029",
-        "league": "WNBA",
-        "title": "Seattle Storm 105 - 90 Atlanta Dream",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-06-28T01:00:00+00:00",
-        "end": "2026-06-28T03:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857040",
         "league": "WNBA",
@@ -686,11 +677,11 @@
       {
         "uid": "espn-wnba-401857094",
         "league": "WNBA",
-        "title": "Seattle Storm - Indiana Fever",
+        "title": "Seattle Storm 95 - 105 Indiana Fever",
         "venue": "Climate Pledge Arena",
         "start": "2026-07-29T01:30:00+00:00",
         "end": "2026-07-29T03:30:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-wnba-401857133",
@@ -756,7 +747,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-27T10:52:13.319224+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -861,7 +852,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-28T10:00:28.242905+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -948,7 +939,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-28T10:00:28.242905+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
@@ -972,6 +963,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-28T10:00:28.242905+00:00"
+    "last_success_utc": "2026-07-29T10:02:25.668463+00:00"
   }
 }

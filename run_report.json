@@ -1,21 +1,21 @@
 {
-  "run_utc": "2026-07-28T10:00:28Z",
+  "run_utc": "2026-07-29T10:02:25Z",
   "leagues": {
     "NFL": {
-      "status": "stale (serving 10 cached events, cache age 2d)",
-      "failure": "fetch failed: HTTP Error 500: Internal Server Error",
-      "consecutive_failures": 2,
+      "status": "fresh",
+      "fetched": 331,
+      "kept": 10,
       "in_season": false
     },
     "CFB": {
       "status": "fresh",
-      "fetched": 476,
+      "fetched": 821,
       "kept": 6,
       "in_season": false
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 1199,
+      "fetched": 1184,
       "kept": 40,
       "in_season": true
     },
@@ -26,9 +26,9 @@
       "in_season": false
     },
     "WNBA": {
-      "status": "stale (serving 12 cached events, cache age 0d)",
-      "failure": "fetch failed: HTTP Error 500: Internal Server Error",
-      "consecutive_failures": 1,
+      "status": "fresh",
+      "fetched": 189,
+      "kept": 11,
       "in_season": true
     },
     "MLS": {
@@ -45,13 +45,13 @@
     },
     "WorldCup": {
       "status": "fresh",
-      "fetched": 32,
+      "fetched": 31,
       "kept": 2,
       "in_season": true
     }
   },
   "flags": [],
-  "total_events": 103,
+  "total_events": 102,
   "escalations": [],
   "anomalies": []
 }
