@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -260,11 +260,11 @@
       {
         "uid": "espn-mlb-401816345",
         "league": "MLB",
-        "title": "Seattle Mariners - Minnesota Twins",
+        "title": "Seattle Mariners 3 - 5 Minnesota Twins",
         "venue": "T-Mobile Park",
         "start": "2026-08-01T02:10:00+00:00",
         "end": "2026-08-01T05:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816360",
@@ -510,7 +510,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -642,7 +642,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -747,7 +747,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -852,7 +852,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -939,20 +939,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-worldcup-760493",
-        "league": "WorldCup",
-        "title": "Belgium 3 - 2 Senegal",
-        "venue": "Lumen Field",
-        "start": "2026-07-01T20:00:00+00:00",
-        "end": "2026-07-01T22:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-worldcup-760507",
         "league": "WorldCup",
@@ -963,6 +954,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-07-31T10:02:03.857636+00:00"
+    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
   }
 }
