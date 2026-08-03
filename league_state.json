@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -135,15 +135,6 @@
         "completed": false
       },
       {
-        "uid": "espn-cfb-401858487",
-        "league": "CFB",
-        "title": "Washington Huskies - Iowa Hawkeyes",
-        "venue": "Husky Stadium",
-        "start": "2026-10-10T01:00:00+00:00",
-        "end": "2026-10-10T04:00:00+00:00",
-        "completed": false
-      },
-      {
         "uid": "espn-cfb-401858516",
         "league": "CFB",
         "title": "Washington Huskies - Penn State Nittany Lions",
@@ -162,29 +153,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816000",
-        "league": "MLB",
-        "title": "Seattle Mariners 1 - 0 Los Angeles Angels",
-        "venue": "T-Mobile Park",
-        "start": "2026-07-03T01:40:00+00:00",
-        "end": "2026-07-03T04:40:00+00:00",
-        "completed": true
-      },
-      {
-        "uid": "espn-mlb-401816014",
-        "league": "MLB",
-        "title": "Seattle Mariners 0 - 2 Toronto Blue Jays",
-        "venue": "T-Mobile Park",
-        "start": "2026-07-04T02:10:00+00:00",
-        "end": "2026-07-04T05:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816029",
         "league": "MLB",
@@ -269,20 +242,20 @@
       {
         "uid": "espn-mlb-401816360",
         "league": "MLB",
-        "title": "Seattle Mariners - Minnesota Twins",
+        "title": "Seattle Mariners 4 - 3 Minnesota Twins",
         "venue": "T-Mobile Park",
         "start": "2026-08-01T20:10:00+00:00",
         "end": "2026-08-01T23:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816375",
         "league": "MLB",
-        "title": "Seattle Mariners - Minnesota Twins",
+        "title": "Seattle Mariners 7 - 6 Minnesota Twins",
         "venue": "T-Mobile Park",
         "start": "2026-08-02T20:10:00+00:00",
         "end": "2026-08-02T23:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816397",
@@ -510,7 +483,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -640,9 +613,18 @@
         "start": "2026-11-29T03:00:00+00:00",
         "end": "2026-11-29T05:30:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401892837",
+        "league": "NHL",
+        "title": "Seattle Kraken - Dallas Stars",
+        "venue": "Climate Pledge Arena",
+        "start": "2026-12-02T02:40:00+00:00",
+        "end": "2026-12-02T05:10:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -747,7 +729,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -852,7 +834,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -939,7 +921,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
@@ -954,6 +936,6 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-08-01T09:28:49.833148+00:00"
+    "last_success_utc": "2026-08-03T10:52:50.579294+00:00"
   }
 }
