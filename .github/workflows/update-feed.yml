@@ -2,7 +2,7 @@ name: Update calendar feed
 
 on:
   schedule:
-    # 12:00 UTC = 4-5am Pacific, after West Coast games have finished
+    # 23:00 UTC = 1am Pacific, after West Coast games have finished
     # and ESPN has posted finals.
     - cron: "23 07 * * *"
   workflow_dispatch: {}
