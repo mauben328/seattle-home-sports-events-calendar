@@ -31,7 +31,11 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports"
-UA = {"User-Agent": "seattle-sports-calendar/1.0 (personal project)"}
+
+# ESPN's edge (Akamai) now returns 403 "Access Denied" to any request that
+# sends a User-Agent header - custom or browser-like. Sending none returns 200.
+# Unofficial API, no contract: if fetches 403 again, re-run diagnose_fetch.py.
+UA = {}
 
 
 # ---------------------------------------------------------------------------
