@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -114,15 +114,6 @@
         "venue": "Husky Stadium",
         "start": "2026-09-12T19:30:00+00:00",
         "end": "2026-09-12T22:30:00+00:00",
-        "completed": false
-      },
-      {
-        "uid": "espn-cfb-401858459",
-        "league": "CFB",
-        "title": "Washington Huskies - Eastern Washington Eagles",
-        "venue": "Husky Stadium",
-        "start": "2026-09-19T23:15:00+00:00",
-        "end": "2026-09-20T02:15:00+00:00",
         "completed": false
       },
       {
@@ -162,7 +153,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -474,7 +465,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -633,7 +624,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -668,11 +659,11 @@
       {
         "uid": "espn-wnba-401857133",
         "league": "WNBA",
-        "title": "Seattle Storm - Chicago Sky",
+        "title": "Seattle Storm 97 - 88 Chicago Sky",
         "venue": "Climate Pledge Arena",
         "start": "2026-08-11T02:00:00+00:00",
         "end": "2026-08-11T04:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-wnba-401857144",
@@ -729,7 +720,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -834,7 +825,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -921,11 +912,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-10T08:54:30.924449+00:00"
+    "last_success_utc": "2026-08-11T08:28:21.923500+00:00"
   }
 }
