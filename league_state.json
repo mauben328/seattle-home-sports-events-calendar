@@ -93,11 +93,20 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [
+      {
+        "uid": "espn-cfb-401858437",
+        "league": "CFB",
+        "title": "Washington Huskies - Washington State Cougars",
+        "venue": "Husky Stadium",
+        "start": "2026-09-06T20:00:00+00:00",
+        "end": "2026-09-06T23:00:00+00:00",
+        "completed": false
+      },
       {
         "uid": "espn-cfb-401858446",
         "league": "CFB",
@@ -153,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -465,7 +474,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -633,7 +642,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -729,7 +738,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -834,7 +843,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -912,11 +921,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-12T08:43:06.891896+00:00"
+    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
   }
 }
