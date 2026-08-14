@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -474,7 +474,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -640,9 +640,18 @@
         "start": "2026-12-11T02:00:00+00:00",
         "end": "2026-12-11T04:30:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401892921",
+        "league": "NHL",
+        "title": "Seattle Kraken - Nashville Predators",
+        "venue": "Climate Pledge Arena",
+        "start": "2026-12-13T03:00:00+00:00",
+        "end": "2026-12-13T05:30:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -738,7 +747,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -843,7 +852,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -921,11 +930,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-13T08:47:35.563913+00:00"
+    "last_success_utc": "2026-08-14T08:40:47.760700+00:00"
   }
 }
