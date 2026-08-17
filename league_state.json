@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -135,15 +135,6 @@
         "completed": false
       },
       {
-        "uid": "espn-cfb-401858487",
-        "league": "CFB",
-        "title": "Washington Huskies - Iowa Hawkeyes",
-        "venue": "Husky Stadium",
-        "start": "2026-10-10T01:00:00+00:00",
-        "end": "2026-10-10T04:00:00+00:00",
-        "completed": false
-      },
-      {
         "uid": "espn-cfb-401858516",
         "league": "CFB",
         "title": "Washington Huskies - Penn State Nittany Lions",
@@ -162,20 +153,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816153",
-        "league": "MLB",
-        "title": "Seattle Mariners 0 - 7 San Francisco Giants",
-        "venue": "T-Mobile Park",
-        "start": "2026-07-18T02:10:00+00:00",
-        "end": "2026-07-18T05:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816168",
         "league": "MLB",
@@ -474,7 +456,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -651,7 +633,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -704,11 +686,11 @@
       {
         "uid": "espn-wnba-401857148",
         "league": "WNBA",
-        "title": "Seattle Storm - Chicago Sky",
+        "title": "Seattle Storm 80 - 82 Chicago Sky",
         "venue": "Climate Pledge Arena",
         "start": "2026-08-16T21:00:00+00:00",
         "end": "2026-08-16T23:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-wnba-401857177",
@@ -747,7 +729,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -755,11 +737,11 @@
       {
         "uid": "espn-mls-761724",
         "league": "MLS",
-        "title": "Seattle Sounders FC - Vancouver Whitecaps",
+        "title": "Seattle Sounders FC 0 - 2 Vancouver Whitecaps",
         "venue": "Lumen Field",
         "start": "2026-08-17T02:30:00+00:00",
         "end": "2026-08-17T04:30:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mls-761736",
@@ -843,7 +825,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -921,11 +903,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-16T07:50:12.115209+00:00"
+    "last_success_utc": "2026-08-17T08:04:39.226725+00:00"
   }
 }
