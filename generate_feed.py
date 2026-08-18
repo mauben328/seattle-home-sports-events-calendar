@@ -20,6 +20,7 @@ Usage:
   python3 generate_feed.py --fixture fixture.json  # offline test
 """
 
+import http.client
 import argparse
 import json
 import re
@@ -44,10 +45,18 @@ UA = {}
 
 def fetch_scoreboard(path: str, start: str, end: str, extra: str, limit: int) -> dict:
     url = f"{BASE}/{path}/scoreboard?dates={start}-{end}&limit={limit}{extra}"
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return json.loads(resp.read().decode("utf-8"))
-
+    last_err = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except (urllib.error.URLError, http.client.IncompleteRead,
+                ConnectionError, TimeoutError) as e:
+            last_err = e
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))  # 1.5s, then 3s
+    raise last_err
 
 def fetch_league_events(league: dict, start: datetime, end: datetime,
                         cfg: dict) -> tuple[list[dict], list[str]]:
@@ -263,7 +272,7 @@ def main() -> int:
                     failure_reason = (f"zero events while in season "
                                       f"({win_start:%Y%m%d}-{win_end:%Y%m%d})")
             except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError,
-                    json.JSONDecodeError) as e:
+                    json.JSONDecodeError, http.client.IncompleteRead, OSError) as e:
                 failure_reason = f"fetch failed: {e}"
 
         # --- failure path: degrade gracefully, escalate visibly -------------
