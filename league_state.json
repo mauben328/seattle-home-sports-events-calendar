@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,20 +162,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816214",
-        "league": "MLB",
-        "title": "Seattle Mariners 2 - 4 Cincinnati Reds",
-        "venue": "T-Mobile Park",
-        "start": "2026-07-22T01:40:00+00:00",
-        "end": "2026-07-22T04:40:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816229",
         "league": "MLB",
@@ -438,7 +429,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -615,10 +606,10 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
   },
   "WNBA": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "cached_events": [
       {
         "uid": "espn-wnba-401857087",
@@ -798,7 +789,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -876,11 +867,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
   }
 }

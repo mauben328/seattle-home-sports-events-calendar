@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-08-20T08:00:55Z",
+  "run_utc": "2026-08-21T08:01:29Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
@@ -9,26 +9,26 @@
     },
     "CFB": {
       "status": "fresh",
-      "fetched": 905,
+      "fetched": 899,
       "kept": 7,
       "in_season": true
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 982,
-      "kept": 30,
+      "fetched": 967,
+      "kept": 29,
       "in_season": true
     },
     "NHL": {
       "status": "fresh",
-      "fetched": 631,
+      "fetched": 640,
       "kept": 19,
       "in_season": false
     },
     "WNBA": {
-      "status": "fresh",
-      "fetched": 135,
-      "kept": 9,
+      "status": "stale (serving 9 cached events, cache age 1d)",
+      "failure": "fetch failed: HTTP Error 504: Gateway Time-out",
+      "consecutive_failures": 1,
       "in_season": true
     },
     "MLS": {
@@ -51,7 +51,7 @@
     }
   },
   "flags": [],
-  "total_events": 93,
+  "total_events": 92,
   "escalations": [],
   "anomalies": []
 }
