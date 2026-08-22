@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,20 +162,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816229",
-        "league": "MLB",
-        "title": "Seattle Mariners 3 - 5 Cincinnati Reds",
-        "venue": "T-Mobile Park",
-        "start": "2026-07-22T19:40:00+00:00",
-        "end": "2026-07-22T22:40:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816345",
         "league": "MLB",
@@ -260,11 +251,11 @@
       {
         "uid": "espn-mlb-401816621",
         "league": "MLB",
-        "title": "Seattle Mariners - Chicago Cubs",
+        "title": "Seattle Mariners 6 - 5 Chicago Cubs",
         "venue": "T-Mobile Park",
         "start": "2026-08-22T02:10:00+00:00",
         "end": "2026-08-22T05:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816636",
@@ -429,7 +420,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -606,20 +597,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   },
   "WNBA": {
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857087",
-        "league": "WNBA",
-        "title": "Seattle Storm 76 - 86 Minnesota Lynx",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-07-22T19:00:00+00:00",
-        "end": "2026-07-22T21:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857094",
         "league": "WNBA",
@@ -693,7 +675,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-20T08:00:55.323332+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -789,7 +771,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -867,11 +849,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-21T08:01:29.897610+00:00"
+    "last_success_utc": "2026-08-22T07:50:11.572279+00:00"
   }
 }
