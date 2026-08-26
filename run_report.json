@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-08-25T08:03:20Z",
+  "run_utc": "2026-08-26T08:04:28Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
@@ -9,13 +9,13 @@
     },
     "CFB": {
       "status": "fresh",
-      "fetched": 513,
+      "fetched": 916,
       "kept": 6,
       "in_season": true
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 915,
+      "fetched": 900,
       "kept": 28,
       "in_season": true
     },
@@ -39,7 +39,7 @@
     },
     "NWSL": {
       "status": "fresh",
-      "fetched": 116,
+      "fetched": 113,
       "kept": 8,
       "in_season": true
     },

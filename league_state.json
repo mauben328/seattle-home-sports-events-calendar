@@ -93,20 +93,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-cfb-401858437",
-        "league": "CFB",
-        "title": "Washington Huskies - Washington State Cougars",
-        "venue": "Husky Stadium",
-        "start": "2026-09-06T20:00:00+00:00",
-        "end": "2026-09-06T23:00:00+00:00",
-        "completed": false
-      },
       {
         "uid": "espn-cfb-401858446",
         "league": "CFB",
@@ -114,6 +105,15 @@
         "venue": "Husky Stadium",
         "start": "2026-09-12T19:30:00+00:00",
         "end": "2026-09-12T22:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-cfb-401858459",
+        "league": "CFB",
+        "title": "Washington Huskies - Eastern Washington Eagles",
+        "venue": "Husky Stadium",
+        "start": "2026-09-19T23:15:00+00:00",
+        "end": "2026-09-20T02:15:00+00:00",
         "completed": false
       },
       {
@@ -153,7 +153,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -278,11 +278,11 @@
       {
         "uid": "espn-mlb-401816678",
         "league": "MLB",
-        "title": "Seattle Mariners - Philadelphia Phillies",
+        "title": "Seattle Mariners 4 - 1 Philadelphia Phillies",
         "venue": "T-Mobile Park",
         "start": "2026-08-26T01:40:00+00:00",
         "end": "2026-08-26T04:40:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816693",
@@ -411,7 +411,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -597,7 +597,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -675,7 +675,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -771,7 +771,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -849,11 +849,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-25T08:03:20.527547+00:00"
+    "last_success_utc": "2026-08-26T08:04:28.737853+00:00"
   }
 }
