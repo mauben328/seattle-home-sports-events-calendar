@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -420,7 +420,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -606,20 +606,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857094",
-        "league": "WNBA",
-        "title": "Seattle Storm 95 - 105 Indiana Fever",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-07-29T01:30:00+00:00",
-        "end": "2026-07-29T03:30:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857133",
         "league": "WNBA",
@@ -684,7 +675,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -780,7 +771,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -858,11 +849,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-27T18:19:58.799635+00:00"
+    "last_success_utc": "2026-08-28T19:29:07.431656+00:00"
   }
 }
