@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -420,7 +420,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -606,7 +606,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -675,7 +675,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -701,11 +701,11 @@
       {
         "uid": "espn-mls-761755",
         "league": "MLS",
-        "title": "Seattle Sounders FC - Chicago Fire FC",
+        "title": "Seattle Sounders FC 2 - 2 Chicago Fire FC",
         "venue": "Lumen Field",
         "start": "2026-08-29T20:30:00+00:00",
         "end": "2026-08-29T22:30:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mls-761780",
@@ -771,7 +771,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -849,11 +849,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-29T13:12:54.695912+00:00"
+    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
   }
 }
