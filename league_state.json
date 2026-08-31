@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -135,15 +135,6 @@
         "completed": false
       },
       {
-        "uid": "espn-cfb-401858487",
-        "league": "CFB",
-        "title": "Washington Huskies - Iowa Hawkeyes",
-        "venue": "Husky Stadium",
-        "start": "2026-10-10T01:00:00+00:00",
-        "end": "2026-10-10T04:00:00+00:00",
-        "completed": false
-      },
-      {
         "uid": "espn-cfb-401858516",
         "league": "CFB",
         "title": "Washington Huskies - Penn State Nittany Lions",
@@ -162,20 +153,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816345",
-        "league": "MLB",
-        "title": "Seattle Mariners 3 - 5 Minnesota Twins",
-        "venue": "T-Mobile Park",
-        "start": "2026-08-01T02:10:00+00:00",
-        "end": "2026-08-01T05:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816360",
         "league": "MLB",
@@ -420,7 +402,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -604,9 +586,18 @@
         "start": "2026-12-23T02:40:00+00:00",
         "end": "2026-12-23T05:10:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893028",
+        "league": "NHL",
+        "title": "Seattle Kraken - Philadelphia Flyers",
+        "venue": "Climate Pledge Arena",
+        "start": "2026-12-30T02:40:00+00:00",
+        "end": "2026-12-30T05:10:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -650,11 +641,11 @@
       {
         "uid": "espn-wnba-401857187",
         "league": "WNBA",
-        "title": "Seattle Storm - Los Angeles Sparks",
+        "title": "Seattle Storm 74 - 90 Los Angeles Sparks",
         "venue": "Climate Pledge Arena",
         "start": "2026-08-30T21:00:00+00:00",
         "end": "2026-08-30T23:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-wnba-401857194",
@@ -675,7 +666,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -771,7 +762,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -797,11 +788,11 @@
       {
         "uid": "espn-nwsl-401853989",
         "league": "NWSL",
-        "title": "Seattle Reign FC - Houston Dash",
+        "title": "Seattle Reign FC 1 - 0 Houston Dash",
         "venue": "Lumen Field",
         "start": "2026-08-30T23:00:00+00:00",
         "end": "2026-08-31T01:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-nwsl-401853995",
@@ -849,11 +840,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-08-30T13:00:52.167409+00:00"
+    "last_success_utc": "2026-08-31T15:12:04.501541+00:00"
   }
 }
