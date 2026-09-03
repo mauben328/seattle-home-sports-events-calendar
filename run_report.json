@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-09-02T12:09:48Z",
+  "run_utc": "2026-09-03T12:09:24Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
@@ -9,25 +9,25 @@
     },
     "CFB": {
       "status": "fresh",
-      "fetched": 935,
+      "fetched": 937,
       "kept": 7,
       "in_season": true
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 801,
+      "fetched": 793,
       "kept": 25,
       "in_season": true
     },
     "NHL": {
       "status": "fresh",
-      "fetched": 714,
+      "fetched": 719,
       "kept": 21,
       "in_season": false
     },
     "WNBA": {
       "status": "fresh",
-      "fetched": 109,
+      "fetched": 106,
       "kept": 7,
       "in_season": true
     },
