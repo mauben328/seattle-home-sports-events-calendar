@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,20 +162,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816397",
-        "league": "MLB",
-        "title": "Seattle Mariners 0 - 8 Detroit Tigers",
-        "venue": "T-Mobile Park",
-        "start": "2026-08-05T01:40:00+00:00",
-        "end": "2026-08-05T04:40:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816412",
         "league": "MLB",
@@ -278,11 +269,11 @@
       {
         "uid": "espn-mlb-401816795",
         "league": "MLB",
-        "title": "Seattle Mariners - Athletics",
+        "title": "Seattle Mariners 4 - 7 Athletics",
         "venue": "T-Mobile Park",
         "start": "2026-09-04T01:40:00+00:00",
         "end": "2026-09-04T04:40:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816809",
@@ -393,7 +384,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -586,9 +577,18 @@
         "start": "2026-12-30T02:40:00+00:00",
         "end": "2026-12-30T05:10:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893060",
+        "league": "NHL",
+        "title": "Seattle Kraken - New York Islanders",
+        "venue": "Climate Pledge Arena",
+        "start": "2027-01-03T03:00:00+00:00",
+        "end": "2027-01-03T05:30:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -657,7 +657,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -753,7 +753,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -831,11 +831,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-09-03T12:09:24.119874+00:00"
+    "last_success_utc": "2026-09-04T12:10:35.502475+00:00"
   }
 }
