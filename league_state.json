@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-07T13:34:06.631859+00:00"
+    "last_success_utc": "2026-09-08T12:11:34.173126+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -114,15 +114,6 @@
         "venue": "Husky Stadium",
         "start": "2026-09-12T19:30:00+00:00",
         "end": "2026-09-12T22:30:00+00:00",
-        "completed": false
-      },
-      {
-        "uid": "espn-cfb-401858459",
-        "league": "CFB",
-        "title": "Washington Huskies - Eastern Washington Eagles",
-        "venue": "Husky Stadium",
-        "start": "2026-09-19T23:15:00+00:00",
-        "end": "2026-09-20T02:15:00+00:00",
         "completed": false
       },
       {
@@ -162,10 +153,10 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-07T13:34:06.631859+00:00"
+    "last_success_utc": "2026-09-08T12:11:34.173126+00:00"
   },
   "MLB": {
-    "consecutive_failures": 0,
+    "consecutive_failures": 1,
     "cached_events": [
       {
         "uid": "espn-mlb-401816453",
@@ -579,7 +570,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-07T13:34:06.631859+00:00"
+    "last_success_utc": "2026-09-08T12:11:34.173126+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -648,7 +639,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-07T13:34:06.631859+00:00"
+    "last_success_utc": "2026-09-08T12:11:34.173126+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -744,7 +735,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-07T13:34:06.631859+00:00"
+    "last_success_utc": "2026-09-08T12:11:34.173126+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -822,11 +813,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-07T13:34:06.631859+00:00"
+    "last_success_utc": "2026-09-08T12:11:34.173126+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-09-07T13:34:06.631859+00:00"
+    "last_success_utc": "2026-09-08T12:11:34.173126+00:00"
   }
 }
