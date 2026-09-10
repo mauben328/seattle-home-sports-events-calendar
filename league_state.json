@@ -14,11 +14,11 @@
       {
         "uid": "espn-nfl-401872656",
         "league": "NFL",
-        "title": "Seattle Seahawks - New England Patriots",
+        "title": "Seattle Seahawks 13 - 10 New England Patriots",
         "venue": "Lumen Field",
         "start": "2026-09-10T00:20:00+00:00",
         "end": "2026-09-10T03:20:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-nfl-401872977",
@@ -93,11 +93,20 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [
+      {
+        "uid": "espn-cfb-401858437",
+        "league": "CFB",
+        "title": "Washington Huskies 24 - 10 Washington State Cougars",
+        "venue": "Husky Stadium",
+        "start": "2026-09-06T20:00:00+00:00",
+        "end": "2026-09-06T23:00:00+00:00",
+        "completed": true
+      },
       {
         "uid": "espn-cfb-401858446",
         "league": "CFB",
@@ -153,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -260,11 +269,11 @@
       {
         "uid": "espn-mlb-401816880",
         "league": "MLB",
-        "title": "Seattle Mariners - Texas Rangers",
+        "title": "Seattle Mariners 3 - 2 Texas Rangers",
         "venue": "T-Mobile Park",
         "start": "2026-09-09T20:10:00+00:00",
         "end": "2026-09-09T23:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401816887",
@@ -289,8 +298,8 @@
         "league": "MLB",
         "title": "Seattle Mariners - Houston Astros",
         "venue": "T-Mobile Park",
-        "start": "2026-09-24T02:10:00+00:00",
-        "end": "2026-09-24T05:10:00+00:00",
+        "start": "2026-09-24T02:00:00+00:00",
+        "end": "2026-09-24T05:00:00+00:00",
         "completed": false
       },
       {
@@ -330,7 +339,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -552,20 +561,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857133",
-        "league": "WNBA",
-        "title": "Seattle Storm 97 - 88 Chicago Sky",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-08-11T02:00:00+00:00",
-        "end": "2026-08-11T04:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857144",
         "league": "WNBA",
@@ -621,7 +621,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -717,7 +717,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -786,11 +786,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-09-09T12:23:01.418876+00:00"
+    "last_success_utc": "2026-09-10T12:16:48.799432+00:00"
   }
 }
