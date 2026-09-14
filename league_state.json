@@ -93,7 +93,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -162,7 +162,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -339,7 +339,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -349,8 +349,8 @@
         "league": "NHL",
         "title": "Seattle Kraken - Vancouver Canucks",
         "venue": "Climate Pledge Arena",
-        "start": "2026-09-20T02:00:00+00:00",
-        "end": "2026-09-20T04:30:00+00:00",
+        "start": "2026-09-20T01:00:00+00:00",
+        "end": "2026-09-20T03:30:00+00:00",
         "completed": false
       },
       {
@@ -559,22 +559,22 @@
         "start": "2027-01-06T02:40:00+00:00",
         "end": "2027-01-06T05:10:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893128",
+        "league": "NHL",
+        "title": "Seattle Kraken - Florida Panthers",
+        "venue": "Climate Pledge Arena",
+        "start": "2027-01-13T02:40:00+00:00",
+        "end": "2027-01-13T05:10:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857144",
-        "league": "WNBA",
-        "title": "Seattle Storm 82 - 84 Portland Fire",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-08-15T02:00:00+00:00",
-        "end": "2026-08-15T04:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857148",
         "league": "WNBA",
@@ -621,7 +621,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -717,20 +717,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-nwsl-401853970",
-        "league": "NWSL",
-        "title": "Seattle Reign FC 1 - 0 Chicago Stars FC",
-        "venue": "Lumen Field",
-        "start": "2026-08-15T02:00:00+00:00",
-        "end": "2026-08-15T04:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-nwsl-401853989",
         "league": "NWSL",
@@ -786,11 +777,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-09-13T12:46:24.976408+00:00"
+    "last_success_utc": "2026-09-14T14:15:43.927082+00:00"
   }
 }
