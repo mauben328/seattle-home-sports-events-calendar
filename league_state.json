@@ -84,56 +84,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-cfb-401858437",
-        "league": "CFB",
-        "title": "Washington Huskies 24 - 10 Washington State Cougars",
-        "venue": "Husky Stadium",
-        "start": "2026-09-06T20:00:00+00:00",
-        "end": "2026-09-06T23:00:00+00:00",
-        "completed": true
-      },
-      {
-        "uid": "espn-cfb-401858446",
-        "league": "CFB",
-        "title": "Washington Huskies 16 - 14 Utah State Aggies",
-        "venue": "Husky Stadium",
-        "start": "2026-09-12T19:30:00+00:00",
-        "end": "2026-09-12T22:30:00+00:00",
-        "completed": true
-      },
-      {
-        "uid": "espn-cfb-401858459",
-        "league": "CFB",
-        "title": "Washington Huskies - Eastern Washington Eagles",
-        "venue": "Husky Stadium",
-        "start": "2026-09-19T23:15:00+00:00",
-        "end": "2026-09-20T02:15:00+00:00",
-        "completed": false
-      },
-      {
-        "uid": "espn-cfb-401858470",
-        "league": "CFB",
-        "title": "Washington Huskies - Minnesota Golden Gophers",
-        "venue": "Husky Stadium",
-        "start": "2026-09-27T03:00:00+00:00",
-        "end": "2026-09-27T06:00:00+00:00",
-        "completed": false
-      },
-      {
-        "uid": "espn-cfb-401858487",
-        "league": "CFB",
-        "title": "Washington Huskies - Iowa Hawkeyes",
-        "venue": "Husky Stadium",
-        "start": "2026-10-10T01:00:00+00:00",
-        "end": "2026-10-10T04:00:00+00:00",
-        "completed": false
-      },
       {
         "uid": "espn-cfb-401858516",
         "league": "CFB",
@@ -142,31 +97,13 @@
         "start": "2026-11-07T05:00:00+00:00",
         "end": "2026-11-07T08:00:00+00:00",
         "completed": false
-      },
-      {
-        "uid": "espn-cfb-401858535",
-        "league": "CFB",
-        "title": "Washington Huskies - Indiana Hoosiers",
-        "venue": "Husky Stadium",
-        "start": "2026-11-21T05:00:00+00:00",
-        "end": "2026-11-21T08:00:00+00:00",
-        "completed": false
       }
     ],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816621",
-        "league": "MLB",
-        "title": "Seattle Mariners 6 - 5 Chicago Cubs",
-        "venue": "T-Mobile Park",
-        "start": "2026-08-22T02:10:00+00:00",
-        "end": "2026-08-22T05:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816636",
         "league": "MLB",
@@ -330,7 +267,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -338,11 +275,11 @@
       {
         "uid": "espn-nhl-401879652",
         "league": "NHL",
-        "title": "Seattle Kraken - Vancouver Canucks",
+        "title": "Seattle Kraken 4 - 2 Vancouver Canucks",
         "venue": "Climate Pledge Arena",
         "start": "2026-09-20T01:00:00+00:00",
         "end": "2026-09-20T03:30:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-nhl-401879332",
@@ -367,8 +304,8 @@
         "league": "NHL",
         "title": "Seattle Kraken - Vegas Golden Knights",
         "venue": "Climate Pledge Arena",
-        "start": "2026-10-07T01:40:00+00:00",
-        "end": "2026-10-07T04:10:00+00:00",
+        "start": "2026-10-07T01:00:00+00:00",
+        "end": "2026-10-07T03:30:00+00:00",
         "completed": false
       },
       {
@@ -559,22 +496,31 @@
         "start": "2027-01-13T02:40:00+00:00",
         "end": "2027-01-13T05:10:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893163",
+        "league": "NHL",
+        "title": "Seattle Kraken - San Jose Sharks",
+        "venue": "Climate Pledge Arena",
+        "start": "2027-01-17T03:00:00+00:00",
+        "end": "2027-01-17T05:30:00+00:00",
+        "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893174",
+        "league": "NHL",
+        "title": "Seattle Kraken - Columbus Blue Jackets",
+        "venue": "Climate Pledge Arena",
+        "start": "2027-01-18T21:00:00+00:00",
+        "end": "2027-01-18T23:30:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857148",
-        "league": "WNBA",
-        "title": "Seattle Storm 80 - 82 Chicago Sky",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-08-16T21:00:00+00:00",
-        "end": "2026-08-16T23:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857177",
         "league": "WNBA",
@@ -596,11 +542,11 @@
       {
         "uid": "espn-wnba-401857194",
         "league": "WNBA",
-        "title": "Seattle Storm - Las Vegas Aces",
+        "title": "Seattle Storm 77 - 114 Las Vegas Aces",
         "venue": "Climate Pledge Arena",
         "start": "2026-09-18T02:00:00+00:00",
         "end": "2026-09-18T04:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-wnba-401857214",
@@ -612,29 +558,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mls-761724",
-        "league": "MLS",
-        "title": "Seattle Sounders FC 0 - 2 Vancouver Whitecaps",
-        "venue": "Lumen Field",
-        "start": "2026-08-17T02:30:00+00:00",
-        "end": "2026-08-17T04:30:00+00:00",
-        "completed": true
-      },
-      {
-        "uid": "espn-mls-761736",
-        "league": "MLS",
-        "title": "Seattle Sounders FC 1 - 2 Austin FC",
-        "venue": "Lumen Field",
-        "start": "2026-08-20T01:30:00+00:00",
-        "end": "2026-08-20T03:30:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mls-761755",
         "league": "MLS",
@@ -708,7 +636,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -768,11 +696,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-09-15T12:44:38.692675+00:00"
+    "last_success_utc": "2026-09-21T07:21:10.285429+00:00"
   }
 }
