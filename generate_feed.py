@@ -43,8 +43,9 @@ UA = {}
 # Fetch
 # ---------------------------------------------------------------------------
 
-def fetch_scoreboard(path: str, start: str, end: str, extra: str, limit: int) -> dict:
-    url = f"{BASE}/{path}/scoreboard?dates={start}-{end}&limit={limit}{extra}"
+def fetch_scoreboard(path: str, month: str, extra: str, limit: int) -> dict:
+    # dates=YYYYMM returns the whole calendar month in one request.
+    url = f"{BASE}/{path}/scoreboard?dates={month}&limit={limit}{extra}"
     last_err = None
     for attempt in range(3):
         try:
@@ -55,46 +56,50 @@ def fetch_scoreboard(path: str, start: str, end: str, extra: str, limit: int) ->
                 ConnectionError, TimeoutError) as e:
             last_err = e
             if attempt < 2:
-                time.sleep(1.5 * (attempt + 1))  # 1.5s, then 3s
+                time.sleep(1.5 * (attempt + 1))
     raise last_err
+
+def _month_range(start: datetime, end: datetime):
+    """Yield 'YYYYMM' for every calendar month touching [start, end]."""
+    y, m = start.year, start.month
+    while (y, m) <= (end.year, end.month):
+        yield f"{y:04d}{m:02d}"
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
 
 def fetch_league_events(league: dict, start: datetime, end: datetime,
                         cfg: dict) -> tuple[list[dict], list[str]]:
-    """Fetch a league's events across a date range in chunks.
+    """Fetch a league's events, one calendar month per request.
 
-    ESPN caps scoreboard responses (observed: 100 by default, or whatever
-    `limit` is set to). A single request for a 6-month window silently
-    returns only the first N events - missing events with no error. So we
-    chunk the range, dedupe by event id, and treat any near-limit chunk as
-    a TRUNCATION anomaly rather than trusting a suspiciously round count.
+    A month query returns events OUTSIDE [start, end] whenever the window
+    starts or ends mid-month (e.g. requesting September when the window
+    starts Sept 15 also returns Sept 1-14). Those are filtered out below so
+    retention_days_past and lookahead_days stay exact - a month query is
+    just the transport, not the actual boundary.
     """
-    chunk_days = cfg.get("fetch_chunk_days", 14)
     limit = cfg.get("fetch_limit", 1000)
     warn_at = cfg.get("truncation_warn_at", 900)
 
     by_id: dict[str, dict] = {}
     truncation: list[str] = []
-    cursor = start
-    while cursor <= end:
-        chunk_end = min(cursor + timedelta(days=chunk_days - 1), end)
-        payload = fetch_scoreboard(league["path"],
-                                   cursor.strftime("%Y%m%d"),
-                                   chunk_end.strftime("%Y%m%d"),
-                                   league["extra"], limit)
+    for month in _month_range(start, end):
+        payload = fetch_scoreboard(league["path"], month, league["extra"], limit)
         events = payload.get("events") or []
         if len(events) >= warn_at:
             truncation.append(
-                f"{league['label']}: chunk {cursor:%Y%m%d}-{chunk_end:%Y%m%d} "
-                f"returned {len(events)} events (limit {limit}) - response is "
-                f"likely truncated. Lower fetch_chunk_days in config.json.")
+                f"{league['label']}: month {month} returned {len(events)} events "
+                f"(limit {limit}) - likely truncated.")
         for ev in events:
-            if ev.get("id"):
+            if not ev.get("id") or not ev.get("date"):
+                continue
+            ev_date = datetime.strptime(ev["date"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+            if start <= ev_date <= end:
                 by_id[ev["id"]] = ev
-        cursor = chunk_end + timedelta(days=1)
-        time.sleep(0.2)  # be polite to an unofficial API
+        time.sleep(0.3)
 
     return list(by_id.values()), truncation
-
 
 # ---------------------------------------------------------------------------
 # Classification and parsing
