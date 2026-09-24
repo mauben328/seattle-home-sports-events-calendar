@@ -84,7 +84,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
@@ -99,20 +99,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816663",
-        "league": "MLB",
-        "title": "Seattle Mariners 9 - 2 Philadelphia Phillies",
-        "venue": "T-Mobile Park",
-        "start": "2026-08-25T01:40:00+00:00",
-        "end": "2026-08-25T04:40:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816678",
         "league": "MLB",
@@ -206,11 +197,11 @@
       {
         "uid": "espn-mlb-401817057",
         "league": "MLB",
-        "title": "Seattle Mariners - Houston Astros",
+        "title": "Seattle Mariners 6 - 5 Houston Astros",
         "venue": "T-Mobile Park",
         "start": "2026-09-24T02:00:00+00:00",
         "end": "2026-09-24T05:00:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mlb-401817069",
@@ -249,7 +240,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -498,7 +489,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -533,14 +524,14 @@
       {
         "uid": "espn-wnba-401857214",
         "league": "WNBA",
-        "title": "Seattle Storm - Dallas Wings",
+        "title": "Seattle Storm 91 - 103 Dallas Wings",
         "venue": "Climate Pledge Arena",
         "start": "2026-09-24T02:00:00+00:00",
         "end": "2026-09-24T04:00:00+00:00",
-        "completed": false
+        "completed": true
       }
     ],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -566,11 +557,11 @@
       {
         "uid": "espn-mls-761543",
         "league": "MLS",
-        "title": "Seattle Sounders FC - Real Salt Lake",
+        "title": "Seattle Sounders FC 2 - 0 Real Salt Lake",
         "venue": "Lumen Field",
         "start": "2026-09-24T01:30:00+00:00",
         "end": "2026-09-24T03:30:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mls-761837",
@@ -618,7 +609,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -678,11 +669,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-09-23T12:48:28.272828+00:00"
+    "last_success_utc": "2026-09-24T12:46:39.466762+00:00"
   }
 }
