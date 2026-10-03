@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-10-02T13:57:38Z",
+  "run_utc": "2026-10-03T12:38:05Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
@@ -15,13 +15,13 @@
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 951,
+      "fetched": 944,
       "kept": 20,
       "in_season": true
     },
     "NHL": {
       "status": "fresh",
-      "fetched": 928,
+      "fetched": 942,
       "kept": 27,
       "in_season": true
     },
