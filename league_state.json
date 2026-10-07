@@ -84,25 +84,16 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816839",
-        "league": "MLB",
-        "title": "Seattle Mariners 2 - 0 Athletics",
-        "venue": "T-Mobile Park",
-        "start": "2026-09-06T20:10:00+00:00",
-        "end": "2026-09-06T23:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816865",
         "league": "MLB",
@@ -248,7 +239,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -283,11 +274,11 @@
       {
         "uid": "espn-nhl-401892454",
         "league": "NHL",
-        "title": "Seattle Kraken - Vegas Golden Knights",
+        "title": "Seattle Kraken 2 - 6 Vegas Golden Knights",
         "venue": "Climate Pledge Arena",
-        "start": "2026-10-07T01:00:00+00:00",
-        "end": "2026-10-07T03:30:00+00:00",
-        "completed": false
+        "start": "2026-10-07T01:40:00+00:00",
+        "end": "2026-10-07T04:10:00+00:00",
+        "completed": true
       },
       {
         "uid": "espn-nhl-401892547",
@@ -504,9 +495,18 @@
         "start": "2027-01-31T21:00:00+00:00",
         "end": "2027-01-31T23:30:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893286",
+        "league": "NHL",
+        "title": "Seattle Kraken - Montreal Canadiens",
+        "venue": "Climate Pledge Arena",
+        "start": "2027-02-04T02:40:00+00:00",
+        "end": "2027-02-04T05:10:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -530,7 +530,7 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -590,20 +590,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-nwsl-401853995",
-        "league": "NWSL",
-        "title": "Seattle Reign FC 1 - 0 San Diego Wave FC",
-        "venue": "Lumen Field",
-        "start": "2026-09-07T01:00:00+00:00",
-        "end": "2026-09-07T03:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-nwsl-401853998",
         "league": "NWSL",
@@ -641,11 +632,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-06T14:17:08.094200+00:00"
+    "last_success_utc": "2026-10-07T14:36:15.591784+00:00"
   }
 }
