@@ -84,25 +84,26 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
-    "cached_events": [],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "cached_events": [
+      {
+        "uid": "espn-cfb-401858487",
+        "league": "CFB",
+        "title": "Washington Huskies - Iowa Hawkeyes",
+        "venue": "Husky Stadium",
+        "start": "2026-10-10T01:00:00+00:00",
+        "end": "2026-10-10T04:00:00+00:00",
+        "completed": false
+      }
+    ],
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816865",
-        "league": "MLB",
-        "title": "Seattle Mariners 5 - 10 Texas Rangers",
-        "venue": "T-Mobile Park",
-        "start": "2026-09-09T01:40:00+00:00",
-        "end": "2026-09-09T04:40:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401816880",
         "league": "MLB",
@@ -239,7 +240,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -506,7 +507,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -530,7 +531,7 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -590,7 +591,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -632,11 +633,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-08T14:41:45.215944+00:00"
+    "last_success_utc": "2026-10-09T14:26:28.262963+00:00"
   }
 }
