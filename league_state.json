@@ -3,15 +3,6 @@
     "consecutive_failures": 0,
     "cached_events": [
       {
-        "uid": "espn-nfl-401872977",
-        "league": "NFL",
-        "title": "Seattle Seahawks 30 - 23 Los Angeles Chargers",
-        "venue": "Lumen Field",
-        "start": "2026-10-04T20:25:00+00:00",
-        "end": "2026-10-04T23:25:00+00:00",
-        "completed": true
-      },
-      {
         "uid": "espn-nfl-401872992",
         "league": "NFL",
         "title": "Seattle Seahawks - San Francisco 49ers",
@@ -19,6 +10,15 @@
         "start": "2026-10-11T20:25:00+00:00",
         "end": "2026-10-11T23:25:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nfl-401872977",
+        "league": "NFL",
+        "title": "Seattle Seahawks 30 - 23 Los Angeles Chargers",
+        "venue": "Lumen Field",
+        "start": "2026-10-04T20:25:00+00:00",
+        "end": "2026-10-04T23:25:00+00:00",
+        "completed": true
       },
       {
         "uid": "espn-nfl-401873022",
@@ -75,25 +75,16 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401816887",
-        "league": "MLB",
-        "title": "Seattle Mariners 4 - 3 Texas Rangers",
-        "venue": "T-Mobile Park",
-        "start": "2026-09-10T20:10:00+00:00",
-        "end": "2026-09-10T23:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401817042",
         "league": "MLB",
@@ -210,9 +201,18 @@
         "start": "2027-03-31T04:00:00+00:00",
         "end": "2027-03-31T07:00:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-mlb-401893960",
+        "league": "MLB",
+        "title": "Seattle Mariners - Colorado Rockies",
+        "venue": "T-Mobile Park",
+        "start": "2027-04-09T04:00:00+00:00",
+        "end": "2027-04-09T07:00:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -479,7 +479,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -503,7 +503,7 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -563,7 +563,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -605,11 +605,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-10T13:52:25.889479+00:00"
+    "last_success_utc": "2026-10-11T14:12:11.418184+00:00"
   }
 }
