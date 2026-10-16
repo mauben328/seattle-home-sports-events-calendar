@@ -75,12 +75,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -237,9 +237,18 @@
         "start": "2027-04-13T04:00:00+00:00",
         "end": "2027-04-13T07:00:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-mlb-401894024",
+        "league": "MLB",
+        "title": "Seattle Mariners - Chicago White Sox",
+        "venue": "T-Mobile Park",
+        "start": "2027-04-14T04:00:00+00:00",
+        "end": "2027-04-14T07:00:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -506,7 +515,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -530,7 +539,7 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -590,7 +599,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -623,11 +632,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-15T12:43:07.919284+00:00"
+    "last_success_utc": "2026-10-16T12:33:38.148234+00:00"
   }
 }
