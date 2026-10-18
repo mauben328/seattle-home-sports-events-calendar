@@ -75,12 +75,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -255,9 +255,18 @@
         "start": "2027-04-15T04:00:00+00:00",
         "end": "2027-04-15T07:00:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-mlb-401894054",
+        "league": "MLB",
+        "title": "Seattle Mariners - Houston Astros",
+        "venue": "T-Mobile Park",
+        "start": "2027-04-16T04:00:00+00:00",
+        "end": "2027-04-16T07:00:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -533,20 +542,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-wnba-401857194",
-        "league": "WNBA",
-        "title": "Seattle Storm 77 - 114 Las Vegas Aces",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-09-18T02:00:00+00:00",
-        "end": "2026-09-18T04:00:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-wnba-401857214",
         "league": "WNBA",
@@ -557,7 +557,7 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -592,11 +592,11 @@
       {
         "uid": "espn-mls-761885",
         "league": "MLS",
-        "title": "Seattle Sounders FC - CF Montr\u00e9al",
+        "title": "Seattle Sounders FC 1 - 1 CF Montr\u00e9al",
         "venue": "Lumen Field",
         "start": "2026-10-18T02:30:00+00:00",
         "end": "2026-10-18T04:30:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-mls-761916",
@@ -617,7 +617,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -650,11 +650,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-17T11:40:36.335677+00:00"
+    "last_success_utc": "2026-10-18T12:06:29.350670+00:00"
   }
 }
