@@ -75,12 +75,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -284,7 +284,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -319,11 +319,11 @@
       {
         "uid": "espn-nhl-401892547",
         "league": "NHL",
-        "title": "Seattle Kraken - Detroit Red Wings",
+        "title": "Seattle Kraken 4 - 3 Detroit Red Wings",
         "venue": "Climate Pledge Arena",
         "start": "2026-10-21T01:40:00+00:00",
         "end": "2026-10-21T04:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-nhl-401892562",
@@ -558,9 +558,18 @@
         "start": "2027-02-15T21:00:00+00:00",
         "end": "2027-02-15T23:30:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893342",
+        "league": "NHL",
+        "title": "Seattle Kraken - Ottawa Senators",
+        "venue": "Climate Pledge Arena",
+        "start": "2027-02-18T02:40:00+00:00",
+        "end": "2027-02-18T05:10:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -575,7 +584,7 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -635,7 +644,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -668,11 +677,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-20T12:48:06.825881+00:00"
+    "last_success_utc": "2026-10-21T13:00:48.642014+00:00"
   }
 }
