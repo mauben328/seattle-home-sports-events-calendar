@@ -75,25 +75,16 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-mlb-401817042",
-        "league": "MLB",
-        "title": "Seattle Mariners 0 - 7 Houston Astros",
-        "venue": "T-Mobile Park",
-        "start": "2026-09-23T01:40:00+00:00",
-        "end": "2026-09-23T04:40:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-mlb-401817057",
         "league": "MLB",
@@ -284,7 +275,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -328,11 +319,11 @@
       {
         "uid": "espn-nhl-401892562",
         "league": "NHL",
-        "title": "Seattle Kraken - Utah Mammoth",
+        "title": "Seattle Kraken 5 - 3 Utah Mammoth",
         "venue": "Climate Pledge Arena",
         "start": "2026-10-23T02:00:00+00:00",
         "end": "2026-10-23T04:30:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-nhl-401892577",
@@ -569,7 +560,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
@@ -584,7 +575,7 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -644,7 +635,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -677,11 +668,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-10-22T13:02:46.808051+00:00"
+    "last_success_utc": "2026-10-23T12:41:45.422125+00:00"
   }
 }
