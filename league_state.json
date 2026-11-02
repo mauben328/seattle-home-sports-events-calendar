@@ -75,22 +75,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
-    "cached_events": [
-      {
-        "uid": "espn-cfb-401858516",
-        "league": "CFB",
-        "title": "Washington Huskies - Penn State Nittany Lions",
-        "venue": "Husky Stadium",
-        "start": "2026-11-07T05:00:00+00:00",
-        "end": "2026-11-07T08:00:00+00:00",
-        "completed": false
-      }
-    ],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "cached_events": [],
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -247,9 +237,18 @@
         "start": "2027-04-30T04:00:00+00:00",
         "end": "2027-04-30T07:00:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-mlb-401894257",
+        "league": "MLB",
+        "title": "Seattle Mariners - Minnesota Twins",
+        "venue": "T-Mobile Park",
+        "start": "2027-05-01T04:00:00+00:00",
+        "end": "2027-05-01T07:00:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -543,12 +542,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -581,35 +580,26 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
     "cached_events": [
       {
-        "uid": "espn-nwsl-401854016",
-        "league": "NWSL",
-        "title": "Seattle Reign FC 0 - 1 North Carolina Courage",
-        "venue": "Lumen Field",
-        "start": "2026-10-03T02:00:00+00:00",
-        "end": "2026-10-03T04:00:00+00:00",
-        "completed": true
-      },
-      {
         "uid": "espn-nwsl-401854037",
         "league": "NWSL",
-        "title": "Seattle Reign FC - Orlando Pride",
+        "title": "Seattle Reign FC 1 - 0 Orlando Pride",
         "venue": "Lumen Field",
         "start": "2026-11-01T22:00:00+00:00",
         "end": "2026-11-02T00:00:00+00:00",
-        "completed": false
+        "completed": true
       }
     ],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-01T14:22:29.273219+00:00"
+    "last_success_utc": "2026-11-02T17:15:15.860792+00:00"
   }
 }
