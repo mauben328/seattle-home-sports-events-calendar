@@ -66,12 +66,22 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
-    "cached_events": [],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "cached_events": [
+      {
+        "uid": "espn-cfb-401858516",
+        "league": "CFB",
+        "title": "Washington Huskies - Penn State Nittany Lions",
+        "venue": "Husky Stadium",
+        "start": "2026-11-07T20:30:00+00:00",
+        "end": "2026-11-07T23:30:00+00:00",
+        "completed": false
+      }
+    ],
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -275,7 +285,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -551,12 +561,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -589,7 +599,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -604,11 +614,11 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-06T15:11:32.607509+00:00"
+    "last_success_utc": "2026-11-07T14:11:13.369491+00:00"
   }
 }
