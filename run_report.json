@@ -1,10 +1,10 @@
 {
-  "run_utc": "2026-11-10T15:40:15Z",
+  "run_utc": "2026-11-11T15:27:15Z",
   "leagues": {
     "NFL": {
       "status": "fresh",
-      "fetched": 219,
-      "kept": 7,
+      "fetched": 207,
+      "kept": 6,
       "in_season": true
     },
     "CFB": {
@@ -15,7 +15,7 @@
     },
     "MLB": {
       "status": "fresh",
-      "fetched": 1092,
+      "fetched": 1096,
       "kept": 22,
       "in_season": false
     },
@@ -51,7 +51,7 @@
     }
   },
   "flags": [],
-  "total_events": 64,
+  "total_events": 63,
   "escalations": [],
   "anomalies": []
 }

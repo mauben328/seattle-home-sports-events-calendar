@@ -3,15 +3,6 @@
     "consecutive_failures": 0,
     "cached_events": [
       {
-        "uid": "espn-nfl-401872992",
-        "league": "NFL",
-        "title": "Seattle Seahawks 29 - 32 San Francisco 49ers",
-        "venue": "Lumen Field",
-        "start": "2026-10-11T20:25:00+00:00",
-        "end": "2026-10-11T23:25:00+00:00",
-        "completed": true
-      },
-      {
         "uid": "espn-nfl-401873022",
         "league": "NFL",
         "title": "Seattle Seahawks 20 - 3 Kansas City Chiefs",
@@ -66,12 +57,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -275,7 +266,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -551,12 +542,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -598,7 +589,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -613,11 +604,11 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-10T15:40:15.581805+00:00"
+    "last_success_utc": "2026-11-11T15:27:15.186446+00:00"
   }
 }
