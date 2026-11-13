@@ -57,12 +57,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -266,7 +266,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
@@ -551,12 +551,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -598,7 +598,7 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -613,11 +613,11 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-12T16:03:25.482101+00:00"
+    "last_success_utc": "2026-11-13T15:31:01.043555+00:00"
   }
 }
