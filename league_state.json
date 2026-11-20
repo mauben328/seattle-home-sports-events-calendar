@@ -57,12 +57,12 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   },
   "CFB": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   },
   "MLB": {
     "consecutive_failures": 0,
@@ -293,20 +293,11 @@
         "completed": false
       }
     ],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   },
   "NHL": {
     "consecutive_failures": 0,
     "cached_events": [
-      {
-        "uid": "espn-nhl-401892547",
-        "league": "NHL",
-        "title": "Seattle Kraken 4 - 3 Detroit Red Wings",
-        "venue": "Climate Pledge Arena",
-        "start": "2026-10-21T01:40:00+00:00",
-        "end": "2026-10-21T04:10:00+00:00",
-        "completed": true
-      },
       {
         "uid": "espn-nhl-401892562",
         "league": "NHL",
@@ -355,11 +346,11 @@
       {
         "uid": "espn-nhl-401892752",
         "league": "NHL",
-        "title": "Seattle Kraken - Vancouver Canucks",
+        "title": "Seattle Kraken 5 - 1 Vancouver Canucks",
         "venue": "Climate Pledge Arena",
         "start": "2026-11-20T02:40:00+00:00",
         "end": "2026-11-20T05:10:00+00:00",
-        "completed": false
+        "completed": true
       },
       {
         "uid": "espn-nhl-401892778",
@@ -594,14 +585,23 @@
         "start": "2027-03-16T01:40:00+00:00",
         "end": "2027-03-16T04:10:00+00:00",
         "completed": false
+      },
+      {
+        "uid": "espn-nhl-401893564",
+        "league": "NHL",
+        "title": "Seattle Kraken - Colorado Avalanche",
+        "venue": "Climate Pledge Arena",
+        "start": "2027-03-20T02:00:00+00:00",
+        "end": "2027-03-20T04:30:00+00:00",
+        "completed": false
       }
     ],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   },
   "WNBA": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   },
   "MLS": {
     "consecutive_failures": 0,
@@ -627,14 +627,14 @@
       {
         "uid": "espn-mls-401933555",
         "league": "MLS",
-        "title": "Seattle Sounders FC - Real Salt Lake",
+        "title": "Seattle Sounders FC 1 - 1 Real Salt Lake",
         "venue": "Lumen Field",
         "start": "2026-11-20T03:00:00+00:00",
         "end": "2026-11-20T05:00:00+00:00",
-        "completed": false
+        "completed": true
       }
     ],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   },
   "NWSL": {
     "consecutive_failures": 0,
@@ -649,11 +649,11 @@
         "completed": true
       }
     ],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   },
   "WorldCup": {
     "consecutive_failures": 0,
     "cached_events": [],
-    "last_success_utc": "2026-11-19T16:39:25.521666+00:00"
+    "last_success_utc": "2026-11-20T16:15:03.803336+00:00"
   }
 }
